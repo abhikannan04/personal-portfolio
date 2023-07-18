@@ -1,0 +1,68 @@
+.p
+{
+    width: 30%;
+    height: 38vh;
+    margin: 20px 10px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px  ;
+    overflow: hidden;
+}
+
+.p-browser
+{
+    height: 20px;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+
+}
+
+.p-circle
+{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: black;margin: 0px 3px;
+    
+}
+
+.p-img
+{
+    width: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
+    opacity: 0.9;
+}
+
+.prod-title
+{
+    position: relative;
+    top: 0px;
+    font-size: 30px;
+    transition: all 1s ease;
+    font-weight: bold;
+    text-shadow: 2px 2px green;
+    cursor: pointer;
+}
+
+.p:hover .p-img 
+{
+    transform: translateY(-50px);
+}
+
+.p:hover .prod-title
+{
+    transform: translateY(-200px);
+}
+
+@media screen and (max-width:480px) {
+
+    .p
+    {
+        width: 40%;
+        height: 20vh;
+    }
+    
+}

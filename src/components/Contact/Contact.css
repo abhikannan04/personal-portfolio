@@ -1,0 +1,174 @@
+.c
+{
+    height: 100vh;
+    position: relative;
+}
+.c-bg
+{
+    width: 20px;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+
+.c-wrapper
+{
+    padding: 45px;
+    display: flex;
+}
+
+.c-left
+{
+    flex: 1;
+}
+.c-right
+{
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    flex-direction: column;
+}
+
+.c-title
+{
+    font-size: 60px;
+    text-shadow: 2px 2px green;
+}
+
+.c-info-item
+{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-weight: 300;
+    margin: 35px 0px;
+}
+
+.c-icon
+{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.c-desc
+{
+    font-weight: 200;
+}
+
+form
+{
+    margin-top: 20px;
+}
+
+input
+{
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid green;
+    margin: 8px 0px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+textarea
+{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: 1px solid green;
+}
+
+.con-btn
+{
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.f-submit
+{
+    margin: 0px 5px;
+    color: green;
+    font-size: bold;
+    
+
+}
+
+.c-gettouch-title
+{
+    font-size: 60px;
+    font-weight:bolder;
+    text-shadow: 2px 2px green;
+}
+
+.c-gettouch-icon
+{
+    width: 70px;
+    height: 70px;
+    margin: 5px 10px;
+    /* filter: invert(); */
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.end-p
+{
+    display: flex;
+    justify-content: center;   
+    width: 60%;
+    margin-top: 30px;
+}
+
+.c-gettouch-card a 
+{
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .c-wrapper
+    {
+        flex-direction: column;
+    }
+    .c-info
+    {
+        width: 100%;
+    }
+
+    .c-desc
+    {
+        display: none;
+    }
+
+    .c-info-item
+    {
+        margin: 5px 0px;
+    }
+
+    form
+    {
+        margin: 0px;
+    }
+
+    input
+    {   
+        margin: 0px;
+        width: 35%;
+        height: 30px;
+        margin: 10px;
+    }
+
+    textarea
+    {
+        margin-top: 5px;
+    }
+    
+}
