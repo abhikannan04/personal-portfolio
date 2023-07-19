@@ -4,8 +4,6 @@ import phone from "../../images/phone.png";
 import email from "../../images/email.png";
 import address from "../../images/address.png";
 import git from "../../images/git.png";
-import linkedin from "../../images/linkedin.png";
-import insta from "../../images/instagram.jpg";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 const Contact = () => {
