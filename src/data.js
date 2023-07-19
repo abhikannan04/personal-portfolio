@@ -8,7 +8,7 @@ export const products = [
   {
     id: 2,
     img: "https://img.freepik.com/premium-psd/personal-resume-cv-web-presentation-slide-template_150101-366.jpg?w=996",
-    link: "http://lama.dev",
+    link: "https://abhikannan-personal-portfolio.netlify.app/",
     title:"PortFolio"
   },
   {
