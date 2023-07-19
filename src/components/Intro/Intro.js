@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import profile from "../../images/profile.png"
 import "../Intro/INtro.css";
 const Intro = () => {

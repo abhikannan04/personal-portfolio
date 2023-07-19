@@ -60,8 +60,6 @@ const Contact = () => {
             <h1 className="c-gettouch-title">GET IN TOUCH</h1>
             <div className="c-gettouch-card">
               <a href="#about" target=""><img src={git} alt="" className="c-gettouch-icon" /> </a>
-              <a href="#"><img src={linkedin} alt="" className="c-gettouch-icon"/> </a>
-              <a href="#"><img src={insta} alt="" className="c-gettouch-icon" /> </a>
             </div>
 
             <div className="end-p">wwww.abhiportfolio.com|All Rights Reserved &copy;</div>

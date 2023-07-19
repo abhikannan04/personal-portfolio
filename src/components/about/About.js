@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import "./About.css";
 import about from "../../images/Aboutme.jpg";
 import award from "../../images/awards.jpg"
@@ -44,8 +44,8 @@ const About = () => {
             </p>
             </div>
         </div>
-        <a href="https://drive.google.com/file/d/16i8KNj-KATjsoJykp5xT_OgzNz-rKgXY/view?usp=sharing" target="_blank" download=""><button className="res-btn">Resume</button></a>
-            <a href="https://github.com/abhikannan04" target="_blank" download=""><button className="res-btn">Github</button></a>
+        <a href="https://drive.google.com/file/d/16i8KNj-KATjsoJykp5xT_OgzNz-rKgXY/view?usp=sharing" target="_blank" rel="noreferrer" download=""><button className="res-btn">Resume</button></a>
+            <a href="https://github.com/abhikannan04" target="_blank" rel="noreferrer" download=""><button className="res-btn">Github</button></a>
       </div>
     </div>
   );
