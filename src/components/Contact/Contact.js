@@ -4,6 +4,7 @@ import phone from "../../images/phone.png";
 import email from "../../images/email.png";
 import address from "../../images/address.png";
 import git from "../../images/git.png";
+import linkedin from "../../images/linkedin.png"
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 const Contact = () => {
@@ -57,7 +58,8 @@ const Contact = () => {
           <div className="c-gettouch">
             <h1 className="c-gettouch-title">GET IN TOUCH</h1>
             <div className="c-gettouch-card">
-              <a href="#about" target=""><img src={git} alt="" className="c-gettouch-icon" /> </a>
+              <a href="https://github.com/abhikannan04" target=""><img src={git} alt="" className="c-gettouch-icon" /> </a>
+              <a href="https://www.linkedin.com/in/abhilashkannan04/" target=""><img src={linkedin} alt="" className="c-gettouch-icon" /> </a>
             </div>
 
             <div className="end-p">wwww.abhiportfolio.com|All Rights Reserved &copy;</div>

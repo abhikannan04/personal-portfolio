@@ -14,13 +14,13 @@ export const products = [
   {
     id: 3,
     img: "https://img.freepik.com/free-vector/online-shopping-concept-landing-page_52683-22153.jpg?w=996&t=st=1688052306~exp=1688052906~hmac=8996ee8c11629671b04df2f1b0872ada58077c0aad9e6b1d95f12485905d9884",
-    link: "http://lama.dev",
+    link: "https://abhikannan-personal-portfolio.netlify.app/",
     title:"E-Commerce"
   },
   {
     id: 4,
     img: "https://img.freepik.com/premium-psd/25-progress-loading-bar-icon-3d-render_47987-12845.jpg?w=900",
-    link: "http://lama.dev",
+    link: "https://abhikannan-personal-portfolio.netlify.app/",
     title:"In Progress"
   },
   {
@@ -28,11 +28,5 @@ export const products = [
     img: "https://img.freepik.com/free-vector/passenger-airplane-realistic-set-transparent-with-airliners-different-point-view-isolated_1284-31743.jpg?w=900&t=st=1688226544~exp=1688227144~hmac=f56c296769f5800d44a9064d9fbfa9de62f23103f3c9fcd596421f4802100f4e",
     link: "https://aero-academy-abhi.netlify.app/",
     title:"Aero-Academy"
-  },
-  {
-    id: 6,
-    img: "",
-    link: "http://lama.dev",
-    title:""
   },
 ];
