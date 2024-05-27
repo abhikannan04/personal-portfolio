@@ -1,0 +1,26 @@
+.nav-main{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.nav-item{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: #39a0ca;
+}

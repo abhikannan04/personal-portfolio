@@ -1,8 +1,9 @@
-import profile from "../../images/profile.png"
+// import profile from "../../images/profile.png"
 import "../Intro/INtro.css";
+import hero_image from "../../images/hero-image.png"
 const Intro = () => {
   return (
-    <div className="i">
+    <div className="i" id="intro-page">
       {/* <h1>PORTFOLIO</h1> */}
       <div className="i-left">
         <div className="i-left-wrapper">
@@ -10,9 +11,10 @@ const Intro = () => {
           <h1 className="i-name">Abhilash Kannan</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
+              <div className="i-title-item">ECE-Undergrad</div>
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Problem Solver</div>
-              <div className="i-title-item">Explorer</div>
+              <div className="i-title-item">UI/UX designer</div>
             </div>
           </div>
           <div className="i-desc">
@@ -22,7 +24,7 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={profile} className="i-img" alt="" />
+        <img src={hero_image} className="i-img" alt="" />
       </div>
     </div>
   );

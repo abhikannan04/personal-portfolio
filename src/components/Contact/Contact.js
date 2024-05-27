@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="c">
+    <div className="c" id="contact-page">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
@@ -68,8 +68,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along me.
+            <b>What’s your story?</b> I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you and connect with you!
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input

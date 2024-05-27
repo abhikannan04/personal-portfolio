@@ -15,7 +15,7 @@
 {
     font-size: 50px;
     font-weight: 600;
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px #39a0ca;
 }
 
 .pl-list
@@ -24,6 +24,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.pl-desc{
+    font-size: 20px;
+
 }
 
 

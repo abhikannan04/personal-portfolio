@@ -17,7 +17,7 @@
 {
     font-size: 50px;
     font-weight: bolder;
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px #39a0ca;
 }
 .a-right
 {
@@ -46,14 +46,24 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: bisque;
+    background-color: #39a0ca;
 }
 
 .a-award-img
 {
-    width: 120px;
-    height: 120px;
+    width:100px;
+    height: 100px;
+    margin: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px wheat;
+}
+
+.a-award-img:hover{
+    width:101px;
+    height: 101px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px wheat;
 }
 
 .a-title
@@ -64,7 +74,8 @@
 .a-sub
 {
     margin: 20px 0px;
-    font-weight: bold;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .a-desc
@@ -75,6 +86,7 @@
 .a-award
 {
     margin-top: 10px;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -88,7 +100,9 @@
 .a-award-title
 {
     font-weight: bold;
-    color: green;
+    font-size: 40px;
+    text-shadow: 2px 2px #39a0ca;
+    
 
 }
 .res-btn
@@ -98,7 +112,7 @@
     margin: 30px 10px;
     border: none;
     cursor: pointer;
-    background-color: green;
+    background-color: #39a0ca;
     padding: 15px;
     color: aliceblue;
     width: 20%;

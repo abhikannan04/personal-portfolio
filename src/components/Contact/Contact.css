@@ -7,19 +7,22 @@
 {
     width: 20px;
     height: 100%;
-    background-color: green;
+    background-color: #39a0ca;
     position: absolute;
 }
 
 .c-wrapper
 {
-    padding: 45px;
+    margin-top: 100px;
+    margin-left: 15px;
+    padding: 25px;
     display: flex;
 }
 
 .c-left
 {
     flex: 1;
+    margin-top: 50px;
 }
 .c-right
 {
@@ -28,12 +31,13 @@
     /* justify-content: center; */
     align-self: center;
     flex-direction: column;
+    margin-top: 60px;
 }
 
 .c-title
 {
     font-size: 60px;
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px #39a0ca;
 }
 
 .c-info-item
@@ -67,7 +71,7 @@ input
     width: 50%;
     height: 60px;
     border: none;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #39a0ca;
     margin: 8px 0px;
     font-size: 15px;
     padding-left: 10px;
@@ -79,7 +83,7 @@ textarea
     font-size: 15px;
     margin-top: 15px;
     padding-left: 10px;
-    border: 1px solid green;
+    border: 1px solid #39a0ca;
 }
 
 .con-btn
@@ -87,7 +91,16 @@ textarea
     margin: 5px 0px;
     border: none;
     cursor: pointer;
-    background-color: green;
+    background-color: #39a0ca;
+    padding: 10px;
+    color: aliceblue;
+}
+.con-btn:hover
+{
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    background-color: #32809e;
     padding: 10px;
     color: aliceblue;
 }
@@ -95,7 +108,7 @@ textarea
 .f-submit
 {
     margin: 0px 5px;
-    color: green;
+    color: #39a0ca;
     font-size: bold;
     
 
@@ -105,7 +118,7 @@ textarea
 {
     font-size: 60px;
     font-weight:bolder;
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px #39a0ca;
 }
 
 .c-gettouch-icon
