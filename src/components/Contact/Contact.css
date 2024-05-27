@@ -22,7 +22,7 @@
 .c-left
 {
     flex: 1;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .c-right
 {
@@ -31,7 +31,7 @@
     /* justify-content: center; */
     align-self: center;
     flex-direction: column;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .c-title
