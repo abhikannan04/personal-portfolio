@@ -3,7 +3,7 @@ import "../Intro/INtro.css";
 import hero_image from "../../images/hero-image.png"
 const Intro = () => {
   return (
-    <div className="i" id="intro-page">
+    <div className="i" >
       {/* <h1>PORTFOLIO</h1> */}
       <div className="i-left">
         <div className="i-left-wrapper">
